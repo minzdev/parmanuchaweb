@@ -1,0 +1,46 @@
+export default {
+  content: ["./index.html", "./src/**/*.{js,jsx}"],
+  theme: {
+    extend: {
+      colors: {
+        ink: "#fff0f6",
+        plum: "#ffe0ee",
+        blush: "#8e0e35",
+        cream: "#420617",
+        paper: "#fff9f6",
+        rose: {
+          50: "#fff1f5",
+          100: "#ffe0ea",
+          200: "#ffc2d6",
+          300: "#ff8fb8",
+          400: "#ff5a95",
+          500: "#e11d5f",
+          600: "#b81245",
+          700: "#8e0e35",
+          800: "#6b0a28",
+          900: "#4a071b",
+          950: "#2a0410",
+        },
+        pink: {
+          50: "#fff0f8",
+          100: "#ffe0f0",
+          200: "#ffc2e0",
+          300: "#ff9ccb",
+          400: "#ff66b0",
+          500: "#ff2e93",
+          600: "#e01478",
+          700: "#b80f61",
+          800: "#8f0c4b",
+          900: "#6b0938",
+          950: "#3b051f",
+        },
+      },
+      fontFamily: {
+        serif: ['"Playfair Display"', "Georgia", "serif"],
+        sans: ["Poppins", "ui-sans-serif", "system-ui", "sans-serif"],
+        script: ['"Great Vibes"', "cursive"],
+      },
+    },
+  },
+  plugins: [],
+};
